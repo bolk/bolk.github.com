@@ -70,7 +70,7 @@ body, select, input, textarea {
 }
 
 h1,h2,h3,h4,h5,h6 { font-weight: bold; }
-h1{font-size:2.2em;margin:1em 0 0.1em;text-align:center;line-height:115%;}
+h1{font-size:2.2em;margin:1em 0 0.1em;text-align:left;line-height:115%;}
 h2{font-size:1.4em;margin:1.8em 0 0.3em 0;}
 h3{font-size:1.2em;margin:1.5em 0 0.3em 0;}
 h4{color:#222;text-align:left;border-bottom:1px solid #ccc;margin:20px 0 0 0;}
@@ -199,10 +199,13 @@ article pre {
 	border-left-width:20px;
 	line-height: 1.1;
 }
-
-
-
-
+body{background-color:#ddd;font-family:Geneva, Lucida Sans, Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif;}
+header{display:block;margin:0px auto;text-align:right;width:832px;}
+section,article{display:block;background-color:#fff;width:800px;margin:0px auto;padding:2em;-moz-box-shadow: 0 0 5px #888;-webkit-box-shadow: 0 0 5px#888;box-shadow: 0 0 5px #888;}
+h1{font-family:baskerville, palatino, 'palatino linotype', georgia,serif;;}
+h1 a{color:#000;text-decoration:none;}
+img{float:right;width:100px;border:3px solid #fff;}
+img{border:1px solid #ddd;padding:4px;margin-top:1.7em;}
 
 /*
  * Media queries for responsive design
