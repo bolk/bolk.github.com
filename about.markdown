@@ -7,7 +7,7 @@ epigraphauthor: Tom Waits
 
 ## Myself
 
-My name is Alberto Bolchini and I live in Milano, Italy, with my wife Paola and our three children.
+My name is Alberto Bolchini and I live in Milano, Italy, with my wife Paola and our three children, Matilde, Elisa and Matteo.
 
 I've been working for [Engitel](http://www.engitel.com) since 2000 as a Web Developer.
 Previously, I worked for Italtel Sistemi as a Software Analyst and before as a contractor at [CEFRIEL](http://www.cefriel.it)
@@ -20,8 +20,8 @@ for ACM [Computing Reviews](http://www.reviews.com).
 
 I seldom write here as well as anywhere else, as a consequence, there's not much to be found around.
 I have mostly pushed stuff to the web at <a href="http://linusmat.com" title="yes, it's closed">linusmat.com</a> which I have used as a 
-playground for various experiments. It is now "closed", and I plan to move the surviving bits over here (
-<a href="http://www.google.com/#q=site:linusmat.com&amp;fp=1">Google</a> won't get upset as there's not much 
+playground for various experiments. It is now "closed", and I plan to move the surviving bits over here 
+(<a href="http://www.google.com/#q=site:linusmat.com&amp;fp=1">Google</a> won't get upset as there's not much 
 to be indexed anyway). 
 
 ## Elsewhere
