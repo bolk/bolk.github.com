@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: About Linusmat
+description: About Alberto Bolchini, this website and nothing more.
 epigraph: I'll tell you all my secrets but I lie about my past
 epigraphauthor: Tom Waits
 ---
