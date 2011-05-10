@@ -7,7 +7,7 @@ epigraphauthor: Tom Waits
 
 ## Myself
 
-My name is Alberto Bolchini and I live in Milano, Italy, with my wife Paola and our three children, Matilde, Elisa and Matteo.
+My name is Alberto Bolchini and I live in Milan, Italy, with my wife Paola and our three children, Matilde, Elisa and Matteo.
 
 I've been working for [Engitel](http://www.engitel.com) since 2000 as a Web Developer.
 Previously, I worked for Italtel Sistemi as a Software Analyst and before as a contractor at [CEFRIEL](http://www.cefriel.it)
