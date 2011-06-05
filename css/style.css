@@ -31,27 +31,32 @@ footer, header, hgroup, menu, nav, section {
     display:block;
 }
 nav ul { list-style:none; }
-blockquote, q { quotes:none; }
-blockquote:before, blockquote:after,
-q:before, q:after { content:''; content:none; }
+/*blockquote, q { quotes:none; }*/
+/*blockquote:before, blockquote:after,
+q:before, q:after { content:''; content:none; }*/
+q:before { content:'«';}
+q:after{content:'»'}
+
 a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; }
 ins { background-color:#ff9; color:#000; text-decoration:none; }
 mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
 del { text-decoration: line-through; }
-abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help; }
+abbr[title], dfn[title] { cursor:help; }
 table { border-collapse:collapse; border-spacing:0; }
 hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
 input, select { vertical-align:middle; }
 /* END RESET CSS */
+
 html { overflow-y: scroll; }/* always force a scrollbar in non-IE */ 
 /*BODY*/
 body {
 	font:1em Georgia,Geneva,Lucida Sans,Lucida Grande,Lucida Sans Unicode,Verdana,sans-serif;
 	*font-size:small; /* hack retained to preserve specificity */
 	line-height:140%;
-	max-width:43em;
+	width:43em;
 	margin:40px auto 1em auto;
 	letter-spacing: 0.01em;
+
 }
 select, input, textarea, button {font:99% sans-serif;}
 pre, code, kbd, samp {font-family: Monaco,monospace,sans-serif;}
@@ -59,9 +64,9 @@ pre, code, kbd, samp {font-family: Monaco,monospace,sans-serif;}
 body, select, input, textarea {color: #444;}
 
 h1,h2,h3,h4,h5,h6 {font-weight: bold;}
-h1{font-size:2.2em;margin:1em 0 0.1em;text-align:left;line-height:115%;}
-h2{font-size:1.4em;margin:1.8em 0 0.3em 0;}
-h3{font-size:1.2em;margin:1.5em 0 0.3em 0;}
+h1{font-size:2.3em;margin:1em 0 0.1em;text-align:left;line-height:115%;}
+h2{font-size:1.5em;margin:1.8em 0 0.3em 0;}
+h3{font-size:1.3em;margin:1.5em 0 0.3em 0;}
 h4{color:#222;text-align:left;border-bottom:1px solid #ccc;margin:20px 0 0 0;}
 h1,h2,h3,h4{font-family:'Quattrocento',Palatino,Palatino Linotype,Baskerville,Georgia,Times New roman,Times,serif;clear:both;}
 h1 a{text-decoration:none;color:#444 ! important;text-align:center;}
@@ -72,6 +77,8 @@ a:hover, a:active { outline: none; }
 
 ul,ol{margin-left:1.8em;}
 ol{list-style-type: decimal;}
+
+p{margin-bottom:0.5em;}
 
 /* Remove margins for navigation lists */
 /*nav{text-align:center;margin-top:2em;}*/
@@ -139,6 +146,11 @@ p{clear:both;}
 blockquote{clear:both;font-style:italic;margin:1em 0 1em 2em;color:#666;}
 blockquote img{float:left;margin:5px;}
 
+
+figcaption{font-size:0.8em;color:#555;}
+figure{margin:0.3em 0;width:43em;}
+abbr{letter-spacing:0.1em;font-size:0.9em;}
+	
 /* 
  * Non-semantic helper classes 
  */
@@ -171,6 +183,9 @@ blockquote img{float:left;margin:5px;}
 .epigraph{font-family:Palatino,Palatino Linotype,Baskerville,Georgia,Times New roman,Times,serif;padding:0;padding-right:5px;color:#888;text-align:right;}
 .epigraph q{border:0;margin:1em 0;}
 .epigraph small{margin:0;margin-left:80%;font-style:italic;}
+p.epigraph q {quotes:none;}
+p.epigraph q:before,p.epigraph q:after { content:'';}
+
 .byline{color:#777;text-align:center;font-size:0.9em;}
 
 img.portrait {float:right;width:100px;margin:0 5px 5px;}
@@ -187,7 +202,7 @@ article pre {
 	border-left-width:20px;
 	line-height: 1.1;
 }
-header{display:block;margin:0px auto;text-align:right;width:832px;}
+header{display:block;margin:0px auto;text-align:right;}
 section,article{display:block;background-color:#fff;margin:0px auto;padding:2em 0;/*-moz-box-shadow: 0 0 5px #888;-webkit-box-shadow: 0 0 5px#888;box-shadow: 0 0 5px #888;*/}
 h1 a{color:#000;text-decoration:none;}
 /*TIME*/
@@ -197,8 +212,9 @@ ul.h li img{-moz-box-shadow: 0 0 5px #888;-webkit-box-shadow: 0 0 5px #888;box-s
 /*NAV*/
 nav ul{list-style-type:disc;}
 nav ul li{float:left;margin-left:2em;}
-nav{position:absolute;right:10px;}
+/*nav{position:absolute;right:10px;}*/
 nav a{color:#444;}
+header nav{float:right;}
 /*img{float:right;width:100px;border:3px solid #fff;}
 img{border:1px solid #ddd;padding:4px;margin-top:1.7em;}
 */

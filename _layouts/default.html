@@ -5,8 +5,8 @@
   <title>{{ page.title }} &mdash; linusmat.com</title>
   <meta name="description" content="{{ page.description }}">
   <meta name="author" content="Alberto Bolchini">
-  <link  href="http://fonts.googleapis.com/css?family=Quattrocento:regular" rel="stylesheet" type="text/css" >
-  <link href="css/style.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Quattrocento:regular" rel="stylesheet" type="text/css">
+  <link href="/css/style.css" rel="stylesheet">
   <link rel="shortcut icon" href="/favicon.ico">
 </head>
 <body>
@@ -15,11 +15,11 @@
 	</header>
 	{{content}}
 	<footer>
-			<img src="/img/sierpinsky-curve-linusmat.png" width="20" height="20" alt="sierpinsky curve">
+			<img src="/img/sierpinsky-curve-linusmat.png" width="20" height="20" alt="sierpinsky curve" />
+			<nav>{% if page.url != "/index.html" %}<a href="/">home</a> &#x2027; {% endif %}<a href="/about.html">about</a> &#x2027; <a href="/time.html">time</a></nav>
 			<p class="copy">
 			Copyright &copy; 2002-10 by Alberto Bolchini &#x2027; <a href='http://creativecommons.org/licenses/by-nc-sa/3.0/' rel='license'>CC BY-NC-SA 3.0</a> &#x2027; <a href='http://planet.linusmat.com/' rel='nofollow'>planet</a> 
 			</p>
-			</div>
 	</footer>
 	{% comment %}{% include analytics.html %}{% endcomment %}
 </body>
