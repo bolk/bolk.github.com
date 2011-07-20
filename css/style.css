@@ -261,3 +261,6 @@ img{border:1px solid #ddd;padding:4px;margin-top:1.7em;}
   h2, h3{ page-break-after: avoid; }
 }
 
+.tour figure{float:left;width:310px;}
+.tour
+aside.tip{padding:2px 2px 2px 64px;display:inline-block;margin:2px;background:#ddd url(../tours/i/i-big.gif) no-repeat scroll;width:90%;}
