@@ -32,7 +32,7 @@ You can find me elsewhere on the web; my username is usually "bolk" or "albertob
 * [Delicious](http://www.delicious.com/bolk) -- bookmarks.
 * [Flickr](http://www.flickr.com/photos/albertob/) -- pictures.
 * [Last.fm](http://last.fm/user/bolk) -- music I listen to.
-	* [LinkedIn](http://it.linkedin.com/in/albertobolchini) -- professional profile.
+* [LinkedIn](http://it.linkedin.com/in/albertobolchini) -- professional profile.
 * [GitHub](http://github.com/bolk) -- few lines of code.
 * [Twitter](http://twitter.com/albertob) -- I registered in 2007, but never actually got into it.
 
