@@ -11,6 +11,16 @@ The first day I picked out and actually respected was the 6th of January: the se
 chosen, but a later incautious laptop reformat, swept them away before I could organize this page. Now, at last, 
 the day has been set again, and it's the first of May.
 
+## 2012
+<ul class="h">
+	<li><img src="/img/time/alberto-bolchini-2012.jpg" alt="Alberto Bolchini on the first of May 2012" title="Alberto Bolchini on the first of May 2012"/></li>
+	<li><img src="/img/time/paola-bolchini-2012.jpg" alt="Paola Bolchini on the first of May 2012" title="Paola Bolchini on the first of May 2012"/></li>
+	<li><img src="/img/time/matilde-bolchini-2012.jpg" alt="Matilde Bolchini on the first of May 2012" title="Matilde Bolchini on the first of May 2012"/></li>
+	<li><img src="/img/time/elisa-bolchini-2012.jpg" alt="Elisa Bolchini on the first of May 2012" title="Elisa Bolchini on the first of May 2012"/></li>
+	<li><img src="/img/time/matteo-bolchini-2012.jpg" alt="Matteo Bolchini on the first of May 2012" title="Matteo Bolchini on the first of May 2012"/></li>
+</ul>
+<div class="clear">&#160;</div>
+&#160;
 ## 2011
 <ul class="h">
 	<li><img src="/img/time/alberto-bolchini-2011.jpg" alt="Alberto Bolchini on the first of May 2011" title="Alberto Bolchini on the first of May 2011"/></li>
