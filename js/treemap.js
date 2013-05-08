@@ -69,7 +69,7 @@ var LastFMTreemap = {
 					LastFMTreemap.min;
 					LastFMTreemap.delta = LastFMTreemap.max - LastFMTreemap.min;
 					LastFMTreemap.step = LastFMTreemap.delta / 10;
-					LastFMTreemap.from = moment(json[LastFMTreemap.selector]['@attr'].from); 
+					LastFMTreemap.from = moment.unix(json[LastFMTreemap.selector]['@attr'].from); 
 					document.getElementById(LastFMTreemap.ts1).innerHTML=' since ' + LastFMTreemap.from.format("dddd, MMMM Do YYYY, h:mm:ss a")
 				            LastFMTreemap.div
 									.data([json[LastFMTreemap.selector]]).selectAll("div")

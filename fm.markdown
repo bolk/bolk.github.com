@@ -19,9 +19,13 @@ A treemap recursively subdivides area into rectangles; the area of any node in t
     <button onclick="LastFMTreemap.getTopTracks();"><span class="mob">Top Tracks</span></button>
 </div>
 				
-<h3 id="ts1">
+<h3 id="ts">
     
 </h3>
+<p id="ts1">
+    
+</p>
+
 <div id='chart'>
     
 </div>
