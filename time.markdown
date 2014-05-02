@@ -11,10 +11,21 @@ The first day I picked out and actually respected was the 6th of January: the se
 chosen, but a later incautious laptop reformat, swept them away before I could organize this page. Now, at last, 
 the day has been set again, and it's the first of May.
 
+## 2014
+<ul class="h">
+	<li><img src="/img/time/alberto-bolchini-2014.jpg" alt="Alberto Bolchini on the first of May 2014" title="Alberto Bolchini on the first of May 2014"/></li>
+	<li><img src="/img/time/paola-bolchini-2014.jpg" alt="Paola Clerici Bolchini on the first of May 2014" title="Paola Clerici Bolchini on the first of May 2014"/></li>
+	<li><img src="/img/time/matilde-bolchini-2014.jpg" alt="Matilde Bolchini on the first of May 2014" title="Matilde Bolchini on the first of May 2014"/></li>
+	<li><img src="/img/time/elisa-bolchini-2014.jpg" alt="Elisa Bolchini on the first of May 2014" title="Elisa Bolchini on the first of May 2014"/></li>
+	<li><img src="/img/time/matteo-bolchini-2014.jpg" alt="Matteo Bolchini on the first of May 2014" title="Matteo Bolchini on the first of May 2014"/></li>
+</ul>
+<div class="clear">&#160;</div>
+&#160;
+
 ## 2013
 <ul class="h">
 	<li><img src="/img/time/alberto-bolchini-2013.jpg" alt="Alberto Bolchini on the first of May 2013" title="Alberto Bolchini on the first of May 2013"/></li>
-	<li><img src="/img/time/paola-bolchini-2013.jpg" alt="Paola Clerici Bolchini on the first of May 2013" title="Paola Clerici Bolchini on the first of May 2012"/></li>
+	<li><img src="/img/time/paola-bolchini-2013.jpg" alt="Paola Clerici Bolchini on the first of May 2013" title="Paola Clerici Bolchini on the first of May 2013"/></li>
 	<li><img src="/img/time/matilde-bolchini-2013.jpg" alt="Matilde Bolchini on the first of May 2013" title="Matilde Bolchini on the first of May 2013"/></li>
 	<li><img src="/img/time/elisa-bolchini-2013.jpg" alt="Elisa Bolchini on the first of May 2013" title="Elisa Bolchini on the first of May 2013"/></li>
 	<li><img src="/img/time/matteo-bolchini-2013.jpg" alt="Matteo Bolchini on the first of May 2013" title="Matteo Bolchini on the first of May 2013"/></li>
