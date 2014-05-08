@@ -83,7 +83,15 @@ var LastFMTreemap = {
 									.attr("title", function(d) { return "this was heard playing " + d.playcount + " times."} )
 		                            .call(LastFMTreemap.cell)
 									.append('a')
-									.attr("href", function(d){ return d.url; })
+									.attr("href", function(d){
+										if(typeof d.url !== 'undefined' && d.url.length >= 4){ 
+										if(d.url.substr(0,4) == 'http') {
+												return d.url
+											} else {
+												return 'http://' + d.url
+											} 
+										}
+									})
 									.attr("onclick", function(d) { return callback + '("' + d.mbid + '")'} )
 									.attr("target", "_blank")
 		                            .text(function(d) { return d.children ? null : d.artist && d.artist.name ? d.name + ' played by ' + d.artist['name'] : d.artist && d.artist['#text'] ? d.name + ' played by ' + d.artist['#text'] : d.name; });
@@ -127,7 +135,6 @@ var LastFMTreemap = {
 
 LastFMTreemap.init();
 var today = moment().startOf('day').subtract('days',4);
-console.log(today);
 LastFMTreemap.to = today.unix();
 LastFMTreemap.from = today.subtract('days',7).unix();
 LastFMTreemap.getWkArtists();
