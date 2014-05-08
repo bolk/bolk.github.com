@@ -69,8 +69,12 @@ var LastFMTreemap = {
 					LastFMTreemap.min;
 					LastFMTreemap.delta = LastFMTreemap.max - LastFMTreemap.min;
 					LastFMTreemap.step = LastFMTreemap.delta / 10;
-					LastFMTreemap.from = moment.unix(json[LastFMTreemap.selector]['@attr'].from); 
-					document.getElementById(LastFMTreemap.ts1).innerHTML=' since ' + LastFMTreemap.from.format("dddd, MMMM Do YYYY, h:mm:ss a")
+					if(json[LastFMTreemap.selector]['@attr'].from != null){
+						LastFMTreemap.from = moment.unix(json[LastFMTreemap.selector]['@attr'].from); 
+						document.getElementById(LastFMTreemap.ts1).innerHTML=' since ' + LastFMTreemap.from.format("dddd, MMMM Do YYYY, h:mm:ss a");
+					} else {
+						document.getElementById(LastFMTreemap.ts1).innerHTML = '';
+					}
 				            LastFMTreemap.div
 									.data([json[LastFMTreemap.selector]]).selectAll("div")
 		                            .data(LastFMTreemap.treemap.nodes)
@@ -89,17 +93,17 @@ var LastFMTreemap = {
 	getTopArtists: function(){
 		LastFMTreemap.reset();
 		LastFMTreemap.getData(0, 'LastFMTreemap.ArtistInfo','');
-		document.getElementById(LastFMTreemap.tt).innerHTML='Top Artists';
+		document.getElementById(LastFMTreemap.ts).innerHTML='Top Artists';
 	}
 	,getTopAlbums: function(){
 		LastFMTreemap.reset();
 		LastFMTreemap.getData(1, 'LastFMTreemap.AlbumsInfo','');
-		document.getElementById(LastFMTreemap.tt).innerHTML='Top Albums';		
+		document.getElementById(LastFMTreemap.ts).innerHTML='Top Albums';		
 	}
 	,getTopTracks: function(){
 		LastFMTreemap.reset();
 		LastFMTreemap.getData(2, 'LastFMTreemap.TrackInfo','');
-		document.getElementById(LastFMTreemap.tt).innerHTML='Top Tracks';		
+		document.getElementById(LastFMTreemap.ts).innerHTML='Top Tracks';		
 	}
 	,getWkArtists: function(){
 		LastFMTreemap.reset();
