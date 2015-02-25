@@ -53,12 +53,14 @@ p{margin-bottom:0.5em;}
 
 /* Remove margins for navigation lists */
 /*nav{text-align:center;margin-top:2em;}*/
-footer{	color: #888;
+footer{	
+	color: #888;
 	font-size: 0.8em;
 	padding: 10px 0 0 0;
 	margin: 10px 0 10px 0;
 	text-align:center;
-	}
+	clear:both;
+}
 
 small { font-size: 85%; }
 b, strong, th { font-weight: bold; }

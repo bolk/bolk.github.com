@@ -1,5 +1,3 @@
-auto: true
-server: true
-server_port: 3000
-pygments: false
+port: 3000
+highlighter: false
 lsi: false
