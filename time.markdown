@@ -11,6 +11,17 @@ The first day I picked out and actually respected was the 6th of January: the se
 chosen, but a later incautious laptop reformat, swept them away before I could organize this page. Now, at last, 
 the day has been set again, and it's the first of May.
 
+## 2016
+<ul class="h">
+	<li><img src="/img/time/alberto-bolchini-2016.jpg" alt="Alberto 2016" title="Alberto 2016" width="100"/></li>
+	<li><img src="/img/time/paola-bolchini-2016.jpg" alt="Paola 2016" title="Paola 2016" width="100"/></li>
+	<li><img src="/img/time/matilde-bolchini-2016.jpg" alt="Matilde 2016" title="Matilde 2016" width="100"/></li>
+	<li><img src="/img/time/elisa-bolchini-2016.jpg" alt="Elisa 2016" title="Elisa 2016" width="100"/></li>
+	<li><img src="/img/time/matteo-bolchini-2016.jpg" alt="Matteo 2016" title="Matteo 2016" width="100"/></li>
+</ul>
+<div class="clear">&#160;</div>
+
+
 ## 2015
 <ul class="h">
 	<li><img src="/img/time/alberto-bolchini-2015.jpg" alt="Alberto 2015" title="Alberto 2015" width="100"/></li>
