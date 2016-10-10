@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
- 	<article>
-	   <div id="page">
-		{% if page.epigraph %}
-		  <p class="epigraph"><q>{{ page.epigraph }}</q> <small>― {{ page.epigraphauthor }}</small></p>
-		{% endif %}
+{% if page.epigraph %}
+  <p class="epigraph"><q>{{ page.epigraph }}</q> <small>― {{ page.epigraphauthor }}</small></p>
+{% endif %}
 		
-		{{content}}
-	   </div>
-	</article>
+{{content}}

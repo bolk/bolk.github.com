@@ -1,14 +1,3 @@
-/*
-var user = 'bolk',
-	apikey = '2634b88ba216891879b9f88e64176762',
-	methods = ['user.getTopArtists', 'user.getTopAlbums', 'user.getTopTracks'],
-	selectors = ['topartists', 'topalbums', 'toptracks'],
-	children = ['artist', 'album', 'track'],
-	callback = ['artistGetinfo', 'albumGetInfo', 'trackGetInfo'],
-	i = 0;
-*/
-//var palette = ['#92342c','#ca5c21','#ecb35c','#fff1a8','#588ad3'];
-
 var LastFMTreemap = {
 	
 	methods: ['user.getTopArtists', 'user.getTopAlbums', 'user.getTopTracks','user.getWeeklyArtistChart', 'user.getWeeklyAlbumChart', 'user.getWeeklyTrackChart'],
@@ -18,8 +7,8 @@ var LastFMTreemap = {
 	
 	init: function(opt){
 		opt = opt || {};
-		LastFMTreemap.height = opt.height || 400;
-		LastFMTreemap.width = opt.width || 680;
+		LastFMTreemap.height = opt.height || 700;
+		LastFMTreemap.width = opt.width || 480;
 		LastFMTreemap.id = opt.id || '#chart';		
 		LastFMTreemap.tt = opt.ts || 'timestamp';
 		LastFMTreemap.ts = opt.selector ? opt.selector.value : 'ts';
@@ -138,48 +127,3 @@ var today = moment().startOf('day').subtract('days',4);
 LastFMTreemap.to = today.unix();
 LastFMTreemap.from = today.subtract('days',7).unix();
 LastFMTreemap.getWkArtists();
-
-/*
-var width = 680, height = 400;
-
-var treemap = d3.layout.treemap()
-                        .size([width, height])
-                        .sticky(true)
-                        .value(function(d) { return d.playcount; });
-                        
-
-var div = d3.select("#chart").append("div")
-                             .style("position", "relative")
-                             .style("width", width + "px")
-                             .style("height", height + "px");
-
-method = methods[i];
-selector = selectors[i];
-child = children[i];
-
-d3.json("http://ws.audioscrobbler.com/2.0/?method=" + method + "&user=" + user + "&api_key=" + apikey + "&format=json", 
-        function(json) {
-			json[selector].name = 'Bolk';
-			json[selector].children = json[selector][child];
-            div.data([json[selector]]).selectAll("div")
-                            .data(treemap.nodes)
-                            .enter().append("div")
-                            .attr("class", "cell")
-							.attr("title", function(d) { return d.mbid } )
-//                            .style("background", function(d) { return d.image ? 'url(' + d.image[3]['#text'] + ')' : 'url(/img/vinyl.jpg)'; }) // (d.playcount < 100) ? palette[0] : ((d.playcount < 200) ? palette[1] : (d.playcount < 300) ? palette[2] : palette[3])  })
-                            .call(cell)
-							.append('a')
-							.attr("href", function(d){ return d.url; })
-							.attr("onclick", function(d) { return callback[i] + '("' + d.mbid + '")'} )
-							.attr("target", "_blank")
-                            .text(function(d) { return d.children ? null : d.name; });
-                        });
-
-function cell() {
-  this
-      .style("left", function(d) { return d.x + "px"; })
-      .style("top", function(d) { return d.y + "px"; })
-      .style("width", function(d) { return Math.max(0, d.dx - 1) + "px"; })
-      .style("height", function(d) { return Math.max(0, d.dy - 1) + "px"; });
-}
-*/

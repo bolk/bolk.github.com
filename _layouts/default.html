@@ -5,22 +5,22 @@
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
   <meta name="author" content="Alberto Bolchini">
-  <link href="http://fonts.googleapis.com/css?family=Quattrocento:regular" rel="stylesheet" type="text/css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/css/style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width" />
+  <link href="/css/style.css?a" rel="stylesheet">
   <link rel="shortcut icon" href="/favicon.ico">
 </head>
 <body>
-	<header>
-		<h1>{{ page.title }}</h1>
-	</header>
-	{{content}}
+	<section>
+		<header><h1>{{page.title}}</h1></header>
+		<main>
+		{{content}}
+		</main>
+		{% if page.back %}
+		<nav><a href="/" class="unstyled">← back home</a></nav>
+		{% endif %}
+	</section>
 	<footer>
-			<img src="/img/sierpinsky-curve-linusmat.png" width="20" height="20" alt="sierpinsky curve" />
-			<nav>{% if page.url != "/index.html" %}<a href="/">home</a> &#x2027; {% endif %}<a href="/about.html">about</a> &#x2027; <a href="/time.html">time</a></nav>
-			<p class="copy">
-			Copyright &copy; 2002-10 by Alberto Bolchini &#x2027; <a href='http://creativecommons.org/licenses/by-nc-sa/3.0/' rel='license'>CC BY-NC-SA 3.0</a> &#x2027; <a href='http://planet.linusmat.com/' rel='nofollow'>planet</a> 
-			</p>
+			<img src="/img/sierpinsky-curve-linusmat.png" alt="" />
 	</footer>
 	{% include analytics.html %}
 </body>

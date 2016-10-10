@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Visualizing my musical preferences over the years
+title: FM - Visualizing my musical preferences over the years
 epigraph: Without music life would be a mistake
 epigraphauthor: Friedrich Nietzche
+back: true
 ---
 
 A treemap recursively subdivides area into rectangles; the area of any node in the tree corresponds to its value. This example uses color to encode different packages of the Flare visualization toolkit. Treemap design invented by <a href='http://www.cs.umd.edu/~ben/'>Ben Shneiderman</a>. Squarified algorithm by <a href='http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.6685'>Bruls, Huizing and van Wijk</a>.
@@ -13,7 +14,7 @@ A treemap recursively subdivides area into rectangles; the area of any node in t
 <div class="controls">
     <button onclick="LastFMTreemap.getWkArtists();"><span class="all">Weekly Artists</span></button>
     <button onclick="LastFMTreemap.getWkAlbums();"><span class="pc">Weekly Albums</span></button>
-    <button onclick="LastFMTreemap.getWkTracks();"><span class="mob">Weekly Tracks</span></button>
+    <button onclick="LastFMTreemap.getWkTracks();"><span class="mob">Weekly Tracks</span></button><br><br>
     <button onclick="LastFMTreemap.getTopArtists();"><span class="all">Top Artists</span></button>
     <button onclick="LastFMTreemap.getTopAlbums();"><span class="pc">Top Albums</span></button>
     <button onclick="LastFMTreemap.getTopTracks();"><span class="mob">Top Tracks</span></button>
