@@ -26,6 +26,7 @@ You can find me elsewhere on the web; my username is usually "bolk" or "albertob
 * [LinkedIn](http://it.linkedin.com/in/albertobolchini) -- professional profile, my CV is [here](/stuff/alberto-bolchini-cv.pdf).
 * [GitHub](http://github.com/bolk) -- few lines of code.
 * [Twitter](http://twitter.com/albertob) -- I registered in 2007, but never actually got into it.
+* [Pinterest](https://www.pinterest.com/bolk/) -- pins.
 
 I also <em>sort of</em> maintain a couple of other tumblelogs:
 
