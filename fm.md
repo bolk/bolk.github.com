@@ -6,7 +6,7 @@ epigraphauthor: Friedrich Nietzche
 back: true
 ---
 
-A treemap recursively subdivides area into rectangles; the area of any node in the tree corresponds to its value. This example uses color to encode different packages of the Flare visualization toolkit. Treemap design invented by <a href='http://www.cs.umd.edu/~ben/'>Ben Shneiderman</a>. Squarified algorithm by <a href='http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.6685'>Bruls, Huizing and van Wijk</a>.
+A treemap recursively subdivides area into rectangles; the area of any node in the tree corresponds to its value. This example uses color to encode different packages of the Flare visualization toolkit. Treemap design invented by [Ben Shneiderman](http://www.cs.umd.edu/~ben/). Squarified algorithm by [Bruls, Huizing and van Wijk](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.6685).
 
 <h2 id="title">
     

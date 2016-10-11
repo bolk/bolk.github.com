@@ -1,5 +1,5 @@
 <!doctype html>  
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
@@ -15,10 +15,18 @@
 		<main>
 		{{content}}
 		</main>
-		{% if page.back %}
-		<nav><a href="/" class="unstyled">← back home</a></nav>
-		{% endif %}
 	</section>
+				<hr>
+	<section class="mi-ricordo">
+		{% for post in site.miricordo %}
+			<article>
+				{{ post.output }}
+				<hr>
+			</article>
+		{% endfor %}		
+	</section>
+	<nav><a href="/" class="unstyled">← back home</a></nav>
+		
 	<footer>
 			<img src="/img/sierpinsky-curve-linusmat.png" alt="" />
 	</footer>

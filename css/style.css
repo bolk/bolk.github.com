@@ -23,10 +23,12 @@ h1
 /* --- circle --- */
 .img-circle
 {
-    border-radius: 50%;
     width: 120px;
     height: 120px;
     margin: 0 20px 0 0;
+
+    border-radius: 50%;
+
     shape-outside: circle(80px at 60px 60px);
 }
 
@@ -57,7 +59,32 @@ a.unstyled
     text-decoration: none;
 }
 
+hr
+{
+    margin: 0;
+    padding: 0;
 
+    text-align: center;
+
+    color: #555;
+    border: none;
+    border-top: medium double #555;
+}
+hr:after
+{
+    font-size: 1.5em;
+
+    position: relative;
+    top: -.55em;
+
+    display: inline-block;
+
+    padding: 0 .25em;
+
+    content: '*';
+
+    background: #bbb;
+}
 /* --- utils --- */
 .pull-left
 {
@@ -79,41 +106,48 @@ main
     font-size: .8em;
 }
 
-.time-machine{
-	padding-bottom:5px;
-	border-bottom:1px solid #333;
-	margin-bottom:5px;
+.time-machine
+{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+    border-bottom: 1px solid #333;
 }
-.time-machine img{
-	padding-right:10px;
+.time-machine img
+{
+    padding-right: 10px;
 }
-.time-machine:after{
-	content:attr(title);
+.time-machine:after
+{
+    content: attr(title);
 }
 
 /* --- a minimum of responsiveness --- */
 @media screen and (max-width: 540px)
 {
+    body
+    {
+        font-size: 24px;
+        line-height: 36px;
 
-    body {
-      font-size: 24px;
-      line-height: 36px;
-      margin: 5px auto;
-      padding: 0 10px 0 10px;
-      -webkit-text-size-adjust: none;
+        margin: 5px auto;
+        padding: 0 10px 0 10px;
+
+        -webkit-text-size-adjust: none;
     }
-	
+
 
     header h1
     {
         font-size: 64px;
-		line-height: 1em;
+        line-height: 1em;
     }
 
     .img-circle
     {
         width: 200px;
         height: 200px;
+
         shape-outside: circle(120px at 100px 100px);
     }
     footer img
@@ -124,177 +158,230 @@ main
 }
 
 
-.cell {
-    border: 1px solid #000;
-    font: 10px/12px "Trebuchet MS",Tahoma, sans-serif;
-    overflow: hidden;
+.cell
+{
+    font: 10px/12px 'Trebuchet MS',Tahoma, sans-serif;
+
     position: absolute;
-    color:#fff;
-    text-align:center;
-    vertical-align:middle;
-    
+
+    overflow: hidden;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: #fff;
+    border: 1px solid #000;
 }
 
-.cell a{
-    color:#fff;
-    text-decoration:none;
-    margin-top:1em;
-    display:block;
+.cell a
+{
+    display: block;
+
+    margin-top: 1em;
+
+    text-decoration: none;
+
+    color: #fff;
 }
 .q0 a,
 .q3 a,
 .q4 a,
 .q5 a,
 .q6 a,
-.q7 a{
-    color:#333;
+.q7 a
+{
+    color: #333;
 }
 
-.q1 {
-	background: #5E4FA2;
+.q1
+{
+    background: #5e4fa2;
 }
 
-.q2 {
-	background: #3288BD;
+.q2
+{
+    background: #3288bd;
 }
 
-.q3 {
-	background: #66C2A5;
+.q3
+{
+    background: #66c2a5;
 }
 
-.q4 {
-	background: #ABDDA4;
+.q4
+{
+    background: #abdda4;
 }
 
-.q5 {
-	background: #E6F598;
+.q5
+{
+    background: #e6f598;
 }
 
-.q6 {
-	background: #FFFFBF;
-	background: #f6faaa;
-	/*border-color: #f6faaa;*/
+.q6
+{
+    background: #ffffbf;
+    background: #f6faaa;
+    /*border-color: #f6faaa;*/
 }
 
-.q7 {
-	background: #FEE08B;
+.q7
+{
+    background: #fee08b;
 }
 
-.q8 {
-	background: #FDAE61;
+.q8
+{
+    background: #fdae61;
 }
 
-.q9 {
-	background: #F46D43;
+.q9
+{
+    background: #f46d43;
 }
 
-.q10 {
-	background: #D53E4F;
+.q10
+{
+    background: #d53e4f;
 }
 
-.q11 {
-	background: #9E0142;
+.q11
+{
+    background: #9e0142;
 }
 
-#legend {
-	width: 165px;
-	color: #777;
-	margin-top: 10px;
-	background: #f3f3f3;
-	border: 1px solid #f0f0f0;
-	overflow: hidden;
-	padding: 5px 7px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	font-size: 11px;
-	line-height: 11px;
-	margin: 10px auto;
+#legend
+{
+    font-size: 11px;
+    line-height: 11px;
+
+    overflow: hidden;
+
+    width: 165px;
+    margin: 10px auto;
+    margin-top: 10px;
+    padding: 5px 7px;
+
+    color: #777;
+    border: 1px solid #f0f0f0;
+    -moz-border-radius: 3px;
+         border-radius: 3px;
+    background: #f3f3f3;
 }
 
-#legend ul {
-	list-style-type: none;
-	overflow: hidden;
-	clear: both;
-	margin-left: -3.7em;
+#legend ul
+{
+    clear: both;
+    overflow: hidden;
+
+    margin-left: -3.7em;
+
+    list-style-type: none;
 }
 
-#legend li {
-	float: left;
-	margin-right: 1px;
-	width: 14px;
-	height: 14px;
+#legend li
+{
+    float: left;
+
+    width: 14px;
+    height: 14px;
+    margin-right: 1px;
 }
 
-#legend p {
-	margin-top: 3px;
+#legend p
+{
+    margin-top: 3px;
 }
 
-#legend p.more {
-    clear:none;
-	float: right;
+#legend p.more
+{
+    float: right;
+    clear: none;
 }
 
-#legend p.less {
-    clear:none;
-	float: left;
+#legend p.less
+{
+    float: left;
+    clear: none;
 }
 
-.controls {
-	margin: 24px 0 20px 7px;
-	font-size: 12px;
-	line-height: 12px;
-	text-align:center;
-	
+.controls
+{
+    font-size: 12px;
+    line-height: 12px;
+
+    margin: 24px 0 20px 7px;
+
+    text-align: center;
 }
 
-.controls label {
-	float: left;
-	display: block;
-	cursor: pointer;
-	padding: 4px 6px;
-	background: #ddd;
-	border: 1px solid #ccc;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	margin: 0 3px 2px 0;
-	color: #888;
+.controls label
+{
+    display: block;
+    float: left;
+
+    margin: 0 3px 2px 0;
+    padding: 4px 6px;
+
+    cursor: pointer;
+
+    color: #888;
+    border: 1px solid #ccc;
+    -moz-border-radius: 2px;
+         border-radius: 2px;
+    background: #ddd;
 }
 
-.controls label:hover {
-	background: #999;
-	color: white;
-	border: 1px solid #888;
+.controls label:hover
+{
+    color: white;
+    border: 1px solid #888;
+    background: #999;
 }
 
-.controls label.sel {
-	background: #444;
-	color: white;
-	border: 1px solid #333;
-	cursor: default;
+.controls label.sel
+{
+    cursor: default;
+
+    color: white;
+    border: 1px solid #333;
+    background: #444;
 }
 
-.controls button {
-	padding: 2px 6px 3px 6px;
-	background: #ddd;
-	border: 1px solid #ccc;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	cursor: pointer;
-	color: #888;
-	font-size: 12px;
-	margin: 0;
-	
+.controls button
+{
+    font-size: 12px;
+
+    margin: 0;
+    padding: 2px 6px 3px 6px;
+
+    cursor: pointer;
+
+    color: #888;
+    border: 1px solid #ccc;
+    -moz-border-radius: 2px;
+         border-radius: 2px;
+    background: #ddd;
 }
 
-.controls button:hover {
-	background: #999;
-	color: white;
-	border: 1px solid #888;
+.controls button:hover
+{
+    color: white;
+    border: 1px solid #888;
+    background: #999;
 }
 
-.controls button.sel {
-	background: #444;
-	color: white;
-	border: 1px solid #333;
-	cursor: default;
+.controls button.sel
+{
+    cursor: default;
+
+    color: white;
+    border: 1px solid #333;
+    background: #444;
+}
+article.post p
+{
+    margin-top: 0;
+
+    -webkit-margin-before: 0;
 }

@@ -1,6 +1,0 @@
-h1. Yuk, a home for Bolk
-
-Giving a try to github pages.
-
-Definitely looking promising. Let's see what happens.
-
