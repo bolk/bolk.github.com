@@ -6,7 +6,13 @@
   <meta name="description" content="{{ page.description }}">
   <meta name="author" content="Alberto Bolchini">
   <meta name="viewport" content="width=device-width" />
-  <link href="/css/style.css" rel="stylesheet">
+  {% capture styles %}
+  {% include inline.scss %}
+  {% endcapture %}
+
+  <style>
+  {{ styles | scssify }}
+  </style>
 </head>
 <body>
 	<section>
@@ -22,5 +28,6 @@
 			<img src="/img/sierpinsky-curve-linusmat.png" alt="" />
 	</footer>
 	{% include analytics.html %}
+  <link href="/css/style.css" rel="stylesheet">
 </body>
 </html>

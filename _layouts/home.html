@@ -6,12 +6,18 @@
   <meta name="description" content="{{ page.description }}">
   <meta name="author" content="Alberto Bolchini">
   <meta name="viewport" content="width=device-width" />
-  <link href="/css/style.css" rel="stylesheet">
+  {% capture styles %}
+  {% include inline.scss %}
+  {% endcapture %}
+
+  <style>
+  {{ styles | scssify }}
+  </style>
   <link rel="shortcut icon" href="/favicon.ico">
 </head>
 <body>
 	<header class="home">
-		<h1 class="pull-left">Alberto Bolchini</h1>
+		<h1>Alberto Bolchini</h1>
 	</header>
  	<section class="home">
 		{{content}}
@@ -21,6 +27,7 @@
 	</footer>
 	{% include analytics.html %}
 	{% include social-profiles.html %}
+  <link href="/css/style.css" rel="stylesheet">
 </body>
 </html>
 

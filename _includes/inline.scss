@@ -1,0 +1,101 @@
+body
+{
+    font: normal 90%/130% Courier;
+    font-size: 16px;
+    line-height: 24px;
+
+    width: 480px;
+    margin: 50px auto;
+
+    color: #333;
+    background: #bbb;
+}
+h1
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* --- circle --- */
+.img-circle
+{
+    width: 120px;
+    height: 120px;
+    margin: 0 20px 0 0;
+
+    border-radius: 50%;
+
+    shape-outside: circle(80px at 60px 60px);
+}
+
+/* --- footer --- */
+footer
+{
+    margin-top: 50px;
+
+    text-align: center;
+}
+/* --- anchor --- */
+a,
+a:hover,
+a:active,
+a:link,
+a:visited
+{
+    text-decoration: underline;
+
+    color: #333;
+}
+a:hover
+{
+    text-decoration: none;background-color: #ddd;
+}
+a.unstyled
+{
+    text-decoration: none;
+}
+/* --- utils --- */
+.pull-left
+{
+    float: left;
+}
+.pull-right
+{
+    float: right;
+}
+
+/* --- a minimum of responsiveness --- */
+@media screen and (max-width: 540px)
+{
+    body
+    {
+        font-size: 24px;
+        line-height: 36px;
+        margin: 5px auto;
+        padding: 0 10px 0 10px;
+        -webkit-text-size-adjust: none;
+    }
+
+
+    header h1
+    {
+        font-size: 64px;
+        line-height: 1em;
+    }
+
+    .img-circle
+    {
+        width: 200px;
+        height: 200px;
+
+        shape-outside: circle(120px at 100px 100px);
+    }
+    footer img
+    {
+        width: 64px;
+        height: 64px;
+    }
+}
+section,
+main
+{
+    clear: both;
+}

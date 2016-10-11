@@ -1,5 +1,7 @@
 port: 3000
 highlighter: false
 lsi: false
+sass:
+  style: compressed
 collections:
   - miricordo
