@@ -13,7 +13,8 @@ begin reading the book from the colophon where you can find details about the an
 book, and the typesetting process (the <a href="http://en.wikipedia.org/wiki/Toolchain">toolchain</a> changes from
 book to book),
 
---
+
+<hr>
 
 This web site written in a text editor in [Markdown](http://daringfireball.net/projects/markdown/) 
 syntax and it's formatted in a set of static <q cite="http://www.w3.org/TR/html5/"><abbr title="HyperText Markup Language 
