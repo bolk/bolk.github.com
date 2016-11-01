@@ -9,8 +9,8 @@ I live in Milan, Italy, with my wife Paola and our three children, Matilde, Elis
 I've been working for [Engitel](http://www.engitel.com) since 2000 as a Web Developer and since 2010 I'm also a partner.
 Previously, I've worked for Italtel Sistemi and before as a contractor at [CEFRIEL](http://www.cefriel.it). 
 
-I am a member of [ACM](http://www.acm.org) (Association for Computing Machinery) and since summer 2006, I am [a reviewer](http://www.reviews.com/browse/browse_reviewers.cfm?reviewer_id=123101) 
-for ACM [Computing Reviews](http://www.reviews.com).
+I am a member of [ACM](http://www.acm.org) (Association for Computing Machinery) and since summer 2006, I am [a reviewer](http://www.computingreviews.com/browse/browse_reviewers.cfm?reviewer_id=123101) 
+for ACM [Computing Reviews](http://www.computingreviews.com).
 
 I seldom write here as well as anywhere else, as a consequence, there's not much to be found around.
 
