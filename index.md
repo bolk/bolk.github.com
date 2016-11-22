@@ -16,7 +16,7 @@ I seldom write here as well as anywhere else, as a consequence, there's not much
 
 * [Arrow of Time](/time): a family project.
 * [FM](/fm): visualizing Last.fm scrobbles.
-* [Mi ricordo](/mi-ricordo) -- A project inspired by Joe Brainard's "[I remember](http://www.amazon.com/gp/product/1887123482?ie=UTF8&tag=linusmat-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1887123482)" and George Perec's "[Je me souviens](http://www.amazon.com/gp/product/2012354564?ie=UTF8&tag=linusmat-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=2012354564)". In Italian.
+* [Mi ricordo](/mi-ricordo) -- A project inspired by Joe Brainard's "I remember" and George Perec's "Je me souviens". In Italian.
 * [Colophon](/colophon): about the mechanics of these pages.
 
 You can find me elsewhere on the web; my username is usually "bolk" or "albertob", and these are websites I do attend: 
