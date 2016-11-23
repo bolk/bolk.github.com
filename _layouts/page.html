@@ -2,7 +2,7 @@
 layout: default
 ---
 {% if page.epigraph %}
-  <p class="epigraph"><q>{{ page.epigraph }}</q> <small>― {{ page.epigraphauthor }}</small></p>
+  <div class="epigraph"><blockquote>{{ page.epigraph }}<footer>{{ page.epigraphauthor }}{% if page.epigraphcite %} – <cite>{{ page.epigraphcite }}</cite>{% endif %}</footer></blockquote> </div>
 {% endif %}
 		
 {{content}}

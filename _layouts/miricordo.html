@@ -6,13 +6,7 @@
   <meta name="description" content="{{ page.description }}">
   <meta name="author" content="Alberto Bolchini">
   <meta name="viewport" content="width=device-width" />
-  {% capture styles %}
-  {% include inline.scss %}
-  {% endcapture %}
-  <style>
-  {{ styles | scssify }}
-  </style>
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link href="/css/tufte.css" rel="stylesheet">
 </head>
 <body>
 	<section>
@@ -21,21 +15,16 @@
 		{{content}}
 		</main>
 	</section>
-				<hr>
-	<section class="mi-ricordo">
-		{% for post in site.miricordo %}
-			<article>
-				{{ post.output }}
-				<hr>
-			</article>
-		{% endfor %}		
-	</section>
+	{% for post in site.miricordo %}
+		<section>
+			{{ post.output }}
+		</section>
+	{% endfor %}		
 	<nav><a href="/" class="unstyled">← back home</a></nav>
 		
 	<footer>
 			<img src="/img/sierpinski.svg" alt="" />
 	</footer>
 	{% include analytics.html %}
-  <link href="/css/style.css" rel="stylesheet">
 </body>
 </html>

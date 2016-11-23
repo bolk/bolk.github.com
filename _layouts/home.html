@@ -6,13 +6,7 @@
   <meta name="description" content="{{ page.description }}">
   <meta name="author" content="Alberto Bolchini">
   <meta name="viewport" content="width=device-width" />
-  {% capture styles %}
-  {% include inline.scss %}
-  {% endcapture %}
-
-  <style>
-  {{ styles | scssify }}
-  </style>
+  <link href="/css/tufte.css" rel="stylesheet">
   <link rel="shortcut icon" href="/favicon.ico">
 </head>
 <body>
@@ -27,7 +21,6 @@
 	</footer>
 	{% include analytics.html %}
 	{% include social-profiles.html %}
-  <link href="/css/style.css" rel="stylesheet">
 </body>
 </html>
 

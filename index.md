@@ -28,7 +28,7 @@ You can find me elsewhere on the web; my username is usually "bolk" or "albertob
 * [Twitter](http://twitter.com/albertob) -- I registered in 2007, but never actually got into it.
 * [Pinterest](https://www.pinterest.com/bolk/) -- pins.
 
-I also <em>sort of</em> maintain a couple of other tumblelogs:
+I also <em>sort of</em> maintain a tumblelog:
 
 * [Stumbling](http://stumbling.linusmat.com/) -- Noticeable quotes, pics, videos found on the web
 
