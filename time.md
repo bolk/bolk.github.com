@@ -22,7 +22,7 @@ Since then, we familiarly dubbed the photo-session as "mayday".
   <img src="/img/time/2015.png" alt="" />
 </figure>
 <figure>
-  <label for="mn-2014" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2014" class="margin-toggle"/><span class="marginnote">2014: we've moved to a differnt house and the light source has changed position with respect to the bookshelf we use for these pictures.</span>
+  <label for="mn-2014" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2014" class="margin-toggle"/><span class="marginnote">2014: we've moved to a different house and the light source has changed position with respect to the bookshelf we use for these pictures.</span>
   <img src="/img/time/2014.png" alt="" />
 </figure>
 <figure>
@@ -39,10 +39,9 @@ Since then, we familiarly dubbed the photo-session as "mayday".
 </figure>
 
 <figure>
-  <label for="mn-2010" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2010" class="margin-toggle"/><span class="marginnote">2010: tooth braces make smiling a bit harder (Matilde); Elisa is not comfortable in front of the camera yet.</span>
+  <label for="mn-2010" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2010" class="margin-toggle"/><span class="marginnote">2010</span>
   <img src="/img/time/2010.png" alt="" />
 </figure>
-
 <figure>
   <label for="mn-2009" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2009" class="margin-toggle"/><span class="marginnote">2009: it's hard to make small children pose.</span>
   <img src="/img/time/2009.png" alt="" />
@@ -56,7 +55,7 @@ Since then, we familiarly dubbed the photo-session as "mayday".
   <img src="/img/time/2007.png" alt="" />
 </figure>
 <figure>
-  <label for="mn-2006" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2006" class="margin-toggle"/><span class="marginnote">2006: once again, on assigment in the countryside, we take the pictures on the field.</span>
+  <label for="mn-2006" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2006" class="margin-toggle"/><span class="marginnote">2006: once again, <q>on assigment</q> in the countryside</span>
   <img src="/img/time/2006.png" alt="" />
 </figure>
 <figure>
@@ -64,6 +63,6 @@ Since then, we familiarly dubbed the photo-session as "mayday".
   <img src="/img/time/2005.png" alt="" />
 </figure>
 <figure>
-  <label for="mn-2004" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2004" class="margin-toggle"/><span class="marginnote">2004: capturing a shy 2½ year old can be tough. In the background, you can spot vinyls on the shelves.</span>
+  <label for="mn-2004" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2004" class="margin-toggle"/><span class="marginnote">2004</span>
   <img src="/img/time/2004.png" alt="" />
 </figure>

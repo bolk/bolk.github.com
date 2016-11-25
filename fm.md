@@ -15,7 +15,7 @@ A treemap recursively subdivides area into rectangles; the area of any node in t
 <div class="controls">
     <button onclick="LastFMTreemap.getWkArtists();"><span class="all">Weekly Artists</span></button>
     <button onclick="LastFMTreemap.getWkAlbums();"><span class="pc">Weekly Albums</span></button>
-    <button onclick="LastFMTreemap.getWkTracks();"><span class="mob">Weekly Tracks</span></button><br><br>
+    <button onclick="LastFMTreemap.getWkTracks();"><span class="mob">Weekly Tracks</span></button>
     <button onclick="LastFMTreemap.getTopArtists();"><span class="all">Top Artists</span></button>
     <button onclick="LastFMTreemap.getTopAlbums();"><span class="pc">Top Albums</span></button>
     <button onclick="LastFMTreemap.getTopTracks();"><span class="mob">Top Tracks</span></button>
@@ -28,10 +28,11 @@ A treemap recursively subdivides area into rectangles; the area of any node in t
     
 </p>
 
-<div id='chart'>
+<div id='chart' class="chart">
     
 </div>
 
+<div class="chart">
 <div id="legend">
 <ul>
 	<li class="q1"></li>
@@ -48,6 +49,7 @@ A treemap recursively subdivides area into rectangles; the area of any node in t
 </ul>
 <p class="more">more plays</p>
 <p class="less">less plays</p>
+</div>
 </div>
 
 <script  type="text/javascript" src="/js/moment.min.js"> </script>

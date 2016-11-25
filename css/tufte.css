@@ -131,6 +131,7 @@ a:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.0
                          background: #b4d5fe; }
 
 /* Sidenotes, margin notes, figures, captions */
+figure img{margin:0 auto;display: block;}
 img { max-width: 100%; }
 
 .sidenote, .marginnote { float: right;
@@ -207,7 +208,8 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                                    padding-right: 8%; }
                             p, footer { width: 100%; }
                             pre.code { width: 97%; }
-                            ul { width: 85%; }
+                            ul{ width: 85%; }
+
                             figure { max-width: 90%; }
                             figcaption, figure.fullwidth figcaption { margin-right: 0%;
                                                                       max-width: none; }
@@ -227,7 +229,12 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                                                                    position: relative; }
                             label { cursor: pointer; }
                             div.table-wrapper, table { width: 85%; }
-                            img { width: 100%; } }
+                            img { width: 100%; } 
+                            }
+
+
+
+
 /* - bolk - */
 /* --- circle --- */
 .img-circle
@@ -259,8 +266,8 @@ a.unstyled
 {
     .img-circle
     {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
 
         shape-outside: circle(120px at 100px 100px);
     }
@@ -269,6 +276,29 @@ a.unstyled
         width: 64px;
         height: 64px;
     }
+
+    h1 { font-weight: 400;
+         margin-top: 2rem;
+         margin-bottom: 1rem;
+         font-size: 2rem;
+         line-height: 1; }
+
+    h2 { font-style: italic;
+         font-weight: 400;
+         margin-top: 1.8rem;
+         margin-bottom: 0;
+         font-size: 1.8rem;
+         line-height: 1; }
+
+    h3 { font-style: italic;
+         font-weight: 400;
+         font-size: 1.4rem;
+         margin-top: 1rem;
+         margin-bottom: 0;
+         line-height: 1; }
+
+    ul, section>ol, section>ul  { width: 85%; }
+
 }
 section,
 main
@@ -277,15 +307,10 @@ main
 }
 .cell
 {
-    font: 10px/12px 'Trebuchet MS',Tahoma, sans-serif;
-
     position: absolute;
-
     overflow: hidden;
-
     text-align: center;
     vertical-align: middle;
-
     color: #fff;
     border: 1px solid #000;
 }
@@ -293,12 +318,16 @@ main
 .cell a
 {
     display: block;
-
-    margin-top: 1em;
-
+    margin-top: 0.2em;
+    text-shadow: none;
+    border:none;
+    background:none ! important;
     text-decoration: none;
-
     color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    letter-spacing: .03em; 
+    font-weight: normal;
+    font-size: 0.8em;
 }
 .q0 a,
 .q3 a,
@@ -339,7 +368,6 @@ main
 {
     background: #ffffbf;
     background: #f6faaa;
-    /*border-color: #f6faaa;*/
 }
 
 .q7
@@ -367,39 +395,34 @@ main
     background: #9e0142;
 }
 
+.chart,#legend.chart{
+    width:480px;
+}
+
 #legend
 {
-    font-size: 11px;
-    line-height: 11px;
-
     overflow: hidden;
-
-    width: 165px;
     margin: 10px auto;
-    margin-top: 10px;
     padding: 5px 7px;
-
+    width:205px;
     color: #777;
-    border: 1px solid #f0f0f0;
-    -moz-border-radius: 3px;
-         border-radius: 3px;
-    background: #f3f3f3;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    letter-spacing: .03em; 
 }
 
 #legend ul
 {
     clear: both;
     overflow: hidden;
-
-    margin-left: -3.7em;
-
     list-style-type: none;
+    margin:0;
+    padding:0;
+    padding-left:20px;
 }
 
 #legend li
 {
     float: left;
-
     width: 14px;
     height: 14px;
     margin-right: 1px;
@@ -407,13 +430,17 @@ main
 
 #legend p
 {
-    margin-top: 3px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.8em;
+    width:auto;
 }
 
 #legend p.more
 {
     float: right;
     clear: none;
+    text-align: right;
 }
 
 #legend p.less
@@ -421,17 +448,7 @@ main
     float: left;
     clear: none;
 }
-
-.controls
-{
-    font-size: 12px;
-    line-height: 12px;
-
-    margin: 24px 0 20px 7px;
-
-    text-align: center;
-}
-
+/*
 .controls label
 {
     display: block;
@@ -464,7 +481,7 @@ main
     border: 1px solid #333;
     background: #444;
 }
-
+*/
 .controls button
 {
     font-size: 12px;
