@@ -13,7 +13,7 @@ begin reading the book from the colophon where you can find details about the an
 book, and the typesetting process (the <a href="http://en.wikipedia.org/wiki/Toolchain">toolchain</a> changes from
 book to book).
 
-<label for="mn-oreilly-quilts" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-oreilly-quilts" class="margin-toggle"/><span class="marginnote"><a href="http://imagequilts.com/">ImageQuilts</a> are are designed by Edward Tufte and Adam</span>
+<label for="mn-oreilly-quilts" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-oreilly-quilts" class="margin-toggle"/><span class="marginnote"><a href="http://imagequilts.com/">ImageQuilts</a> are designed by Edward Tufte and Adam</span>
 <figure><img src="/img/oreilly-quilt.png" alt="An image quilt of O'Reilly's book covers with animals"/></figure>
 
 <hr>
