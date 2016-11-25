@@ -9,14 +9,14 @@ I live in Milan, Italy, with my wife Paola and our three children, Matilde, Elis
 I've been working for [Engitel](http://www.engitel.com) since 2000 as a Web Developer and since 2010 I'm also a partner.
 Previously, I've worked for Italtel Sistemi and before as a contractor at [CEFRIEL](http://www.cefriel.it). 
 
-I am a member of [ACM](http://www.acm.org) (Association for Computing Machinery) and since summer 2006, I am [a reviewer](http://www.reviews.com/browse/browse_reviewers.cfm?reviewer_id=123101) 
-for ACM [Computing Reviews](http://www.reviews.com).
+I am a member of [ACM](http://www.acm.org) (Association for Computing Machinery) and since summer 2006, I am [a reviewer](http://www.computingreviews.com/browse/browse_reviewers.cfm?reviewer_id=123101) 
+for ACM [Computing Reviews](http://www.computingreviews.com).
 
 I seldom write here as well as anywhere else, as a consequence, there's not much to be found around.
 
 * [Arrow of Time](/time): a family project.
 * [FM](/fm): visualizing Last.fm scrobbles.
-* [Mi ricordo](/mi-ricordo) -- A project inspired by Joe Brainard's "[I remember](http://www.amazon.com/gp/product/1887123482?ie=UTF8&tag=linusmat-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1887123482)" and George Perec's "[Je me souviens](http://www.amazon.com/gp/product/2012354564?ie=UTF8&tag=linusmat-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=2012354564)". In Italian.
+* [Mi ricordo](/mi-ricordo) -- A project inspired by Joe Brainard's "I remember" and George Perec's "Je me souviens". In Italian.
 * [Colophon](/colophon): about the mechanics of these pages.
 
 You can find me elsewhere on the web; my username is usually "bolk" or "albertob", and these are websites I do attend: 
@@ -28,7 +28,7 @@ You can find me elsewhere on the web; my username is usually "bolk" or "albertob
 * [Twitter](http://twitter.com/albertob) -- I registered in 2007, but never actually got into it.
 * [Pinterest](https://www.pinterest.com/bolk/) -- pins.
 
-I also <em>sort of</em> maintain a couple of other tumblelogs:
+I also <em>sort of</em> maintain a tumblelog:
 
 * [Stumbling](http://stumbling.linusmat.com/) -- Noticeable quotes, pics, videos found on the web
 

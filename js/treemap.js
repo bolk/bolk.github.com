@@ -28,10 +28,10 @@ var LastFMTreemap = {
 		                             .style("position", "relative")
 		                             .style("width", LastFMTreemap.width + "px")
 		                             .style("height", LastFMTreemap.height + "px");
-									LastFMTreemap.treemap = d3.layout.treemap()
-									                        .size([LastFMTreemap.width, LastFMTreemap.height])
-									                        .sticky(true)
-									                        .value(function(d) { return d.playcount; });
+		LastFMTreemap.treemap = d3.layout.treemap()
+			                        .size([LastFMTreemap.width, LastFMTreemap.height])
+									 .sticky(true)
+						             .value(function(d) { return d.playcount; });
 	},
 	
 	cell: function() {

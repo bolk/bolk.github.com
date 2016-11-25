@@ -1,4 +1,4 @@
 ---
 title: Miralanza
 ---
-Mi ricordo le scivolate a cavallo del corrimano delle scale.
+<span class="newthought">Mi ricordo</span> le scivolate a cavallo del corrimano delle scale.
