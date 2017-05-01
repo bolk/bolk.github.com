@@ -14,6 +14,10 @@ On the 1<sup>st</sup> of May 2004 we started over, and this time I backed-up eve
 Since then, we familiarly dubbed the photo-session as "mayday".
 
 <figure>
+  <label for="mn-2017" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2017" class="margin-toggle"/><span class="marginnote">2017</span>
+  <img src="/img/time/2017.png" alt="" />
+</figure>
+<figure>
   <label for="mn-2016" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2016" class="margin-toggle"/><span class="marginnote">2016: four out of five wear glasses!</span>
   <img src="/img/time/2016.png" alt="" />
 </figure>
