@@ -4,55 +4,49 @@ https://keybase.io/bolk
 
 I hereby claim:
 
-  * I am an admin of http://alberto.bolchini.name
+  * I am an admin of https://bolk.github.com
   * I am bolk (https://keybase.io/bolk) on keybase.
-  * I have a public key with fingerprint B16E 3344 4F38 4A42 9C74  D85F 864B 649F E582 4693
+  * I have a public key ASD46uLyX57cyC3RPxsSmZxO6_VABhCEpk7VDaYqkPznigo
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "fingerprint": "b16e33444f384a429c74d85f864b649fe5824693",
-            "host": "keybase.io",
-            "key_id": "864b649fe5824693",
-            "kid": "0111c2f213c145f1e29dc07211f74588ef592179eb6ec5015e6c59d916d187992d610a",
-            "uid": "bfbadf5f9853fd1d0eafb645d8fac500",
-            "username": "bolk"
-        },
-        "service": {
-            "hostname": "alberto.bolchini.name",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0111c2f213c145f1e29dc07211f74588ef592179eb6ec5015e6c59d916d187992d610a",
+      "host": "keybase.io",
+      "kid": "0120f8eae2f25f9edcc82dd13f1b12999c4eebf540061084a64ed50da62a90fce78a0a",
+      "uid": "bfbadf5f9853fd1d0eafb645d8fac500",
+      "username": "bolk"
     },
-    "ctime": 1420330351,
-    "expire_in": 157680000,
-    "prev": "244ee31de18b595b5864a3ccd3bb8c0cbf0bdc7563868092a9da5306a15d75a2",
-    "seqno": 4,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1571416199,
+      "hash": "ee574536dcd8bb083077a78ee3ffd5b990db745f9cc1f5e3f5460871882c622272e243ebf3d9d1838e44133a2908e5be7137c912edfac0523d14b8615303e0e3",
+      "hash_meta": "fe6d80a784da17aac7c0923c3dc1bb4be710d3e71156f70c99fe17206acab7ba",
+      "seqno": 8222630
+    },
+    "service": {
+      "entropy": "s7KClFpjHvx1MDcAPc0Ghj3A",
+      "hostname": "bolk.github.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.6.0"
+  },
+  "ctime": 1571416686,
+  "expire_in": 504576000,
+  "prev": "618c33ca6b50d402ab935e9b440c2c23fb31147ec224437e70fd874f823b8fc9",
+  "seqno": 26,
+  "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.1
-Comment: https://keybase.io/crypto
-
-yMEfAnicbZI9a1RBFIavRgUXhKQUFGEg3bLO953Zwi5pLGwsBItlPs7sDru5s7l7
-dzWEIApaiI1ob7BK4T9IpVhpZ2FlIUJ+gYWtM0vsnGaYc973OXMO5/O1jaq39eKu
-f3f2bPfNha8fd5bV/ZPn6RDZ5A/Q8BBNYX2F2Iyhnbex6dAQWSKBMc55YIobTrWr
-uVciKMmt5DqAUJRLzVAfTdKiODLGmgUMYsqx/BhFn6P/0U/XCUwIcTRQwhzhIhCg
-2jtcU0JCzYVSEISmpNZgJTiBiQDphPaaSE9UrTX1kmCTccs1zgZrfBBBK8GCJx6D
-Cbmw8CqYbMdFuIC2MXtQ1Gk2RUd9lCOr6KC0X7o4z5qZhbZLg6xyk9jEwTreR/M2
-dcmlWZZMum4+LITuYF4sj8COzmEjGxufZ5kNK2gXMTVoSLLSdbHQCaeYMcwE6SN4
-PI8tjGJRiFoqnE8pA6uMpJwDMOKBKCu0sCKP0jDnPLNWOexswNa7WkimslNTo70R
-DEtDhK+Foai0t98kNOT5m2ackYs4bky3bAEdfdq9VG31qiuXL5ZlqHpXN/+tyPaH
-6vj7wxvs6cvbm6exuf77z83tO1/G36rjH+/xzs/Xtx6M9+79Oj178vbVxsn+X0LR
-vgk=
-=zhTi
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+Ori8l+e3Mgt0T8bEpmcTuv1QAYQhKZO1Q2mKpD854oKp3BheWxvYWTESpcCGsQgYYwzymtQ1AKrk16bRAwsI/sxFH7CJEN+cP2HT4I7j8nEIE28eXyRwVjH2M4mbuKebzsofyLbXE1mm9UQzuQKsxfzAgHCo3NpZ8RA6Q4bHFdYxWoHf7KJJaSa8BXI6c7WJ7eYPOzz0alx0y4H6bxagniZg6zGtXUkWslMnQHIPi208s0aqNdojBAyCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ0iptYWTNGJHvZ1WIgsecid1yUv1pO7gP9b2G0/6MCao3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -60,4 +54,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/bolk
 
 ==================================================================
-
