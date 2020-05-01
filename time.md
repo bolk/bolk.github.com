@@ -6,13 +6,40 @@ epigraphauthor: Max Frisch
 epigraphcite: Sketchbook 1946-1949
 back: true
 ---
-
+<style>
+    figure img{
+      margin:0;
+    }
+    .card {
+        position: relative;
+        margin:0 auto;
+        display: block;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+    }
+    figure{max-width: 35%}
+</style>
 In 2002, I found Diego Golberg's [The arrow of Time page](http://www.zonezero.com/magazine/essays/diegotime/time.html). 
 I immediatly thought we should have done something alike, and although at the time our family was already of three, we decided to give it a try anyway. The first day we picked out was the 6th of January. After two years, I incautiously reformatted my laptop and swept the pictures away. I hadn't set up this page at that time, so I lost the pictures altogether.
 On the 1<sup>st</sup> of May 2004 we started over, and this time I backed-up everything on the Internet.
 
 Since then, we familiarly dubbed the photo-session as "mayday".
 
+<figure>
+  <label for="mn-2020" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2020" class="margin-toggle"/><span class="marginnote">2020: this is the COVID-19 year.<br>Hover the image to unveil our faces</span>
+  <div class="card">
+    <img src="/img/time/2020-covid.png" alt=""/>
+    <img class="img-top" src="/img/time/2020.png" alt="" />
+  </div>
+</figure>
 <figure>
   <label for="mn-2019" class="margin-toggle">ⓘ</label><input type="checkbox" id="mn-2019" class="margin-toggle"/><span class="marginnote">2019</span>
   <img src="/img/time/2019.png" alt="" />
