@@ -47,7 +47,7 @@ var LastFMTreemap = {
 		LastFMTreemap.selector = LastFMTreemap.selectors[type];
 		LastFMTreemap.child = LastFMTreemap.children[type];
 		
-		d3.json("http://ws.audioscrobbler.com/2.0/?method=" + LastFMTreemap.method + "&user=" + LastFMTreemap.user + "&api_key=" + LastFMTreemap.apikey + "&format=json" + opt, 
+		d3.json("https://ws.audioscrobbler.com/2.0/?method=" + LastFMTreemap.method + "&user=" + LastFMTreemap.user + "&api_key=" + LastFMTreemap.apikey + "&format=json" + opt, 
 		        function(json) {
 					json[LastFMTreemap.selector].name = 'x';
 					json[LastFMTreemap.selector].children = json[LastFMTreemap.selector][LastFMTreemap.child];
